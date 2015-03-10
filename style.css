@@ -1,0 +1,93 @@
+.pull-right {display:inline;
+}
+.pull-left {display:inline;}
+
+.nav a{
+    color: white;
+    font-size: 10px;
+    font-family: helvetica neue;
+    font-weight: regular;
+    padding: 14px 1px;
+    text-transform: uppercase;
+  padding-top:0px;
+  margin-right:50px;
+    } 
+
+.nav li {
+  display: inline;
+  padding-top:5px;
+}
+
+body {
+    background-image: url(https://www.dropbox.com/s/vcxumc7d6ef600t/080120102505.jpg?dl=1);width="1500" height="1500"
+    background-color: #cccccc;
+  position:relative;
+}
+.jumbotron .container {
+    position:relative;
+    top: 50px;
+}
+
+.jumbotron .container h1{
+   padding: 23px;
+  color: white;
+  font-family: helvetica neue;
+  font-weight:regular;
+  font-size: 48px;
+   margin-left:80px;
+  margin-right:80px;
+}
+
+.jumbotron p {
+    color:white;
+  font-family:helvetica neue;
+    font-size: 18px;
+  margin-left:50px;
+  margin-right:40px;
+    }
+.jumbotron h2 {
+    color:white;
+  font-family:helvetica neue;
+    font-size: 18px;
+  margin-left:70px;
+  margin-right:40px;
+    }
+
+element.style {
+transform: translateX(100px) translateY(100px);
+}
+
+.collection-type-index.title--description-position-over-image .title-desc-wrapper.has-main-image .title-desc-inner {
+margin: 1000;
+max-width: 1000%;
+}
+
+.learn-more {
+  background-color: #f7f7f7;
+}
+
+.learn-more h3 {
+  
+  font-family: helvetica neue;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.learn-more a {
+  color: #00b0ff;
+}
+
+.neighborhood-guides{
+    background-color:#efefef;
+    border-bottom:1px solid #dbdbdb;
+    }
+    
+.jumbotron .container h2{
+    color:white;
+  font-family:helvetica neue;
+    font-size:24px;}
+    
+   .jumbotron .container p2{
+     color:white;
+    font-size:18px;
+    margin-bottom:13px;}
