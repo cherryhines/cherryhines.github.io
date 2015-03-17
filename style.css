@@ -4,9 +4,9 @@
 
 .nav a{
     color: white;
-    font-size: 10px;
-    font-family: helvetica neue;
-    font-weight: regular;
+    font-size: 11px;
+    font-family: "Helvetica Neue";
+    font-weight: normal;
     padding: 14px 1px;
     text-transform: uppercase;
   padding-top:0px;
@@ -19,13 +19,17 @@
 }
 
 body {
-    background-image: url(https://www.dropbox.com/s/vcxumc7d6ef600t/080120102505.jpg?dl=1);width="1500" height="1500"
-    background-color: #cccccc;
   position:relative;
+  background-image: url(https://www.dropbox.com/s/pjtygkfsduzvn1i/girl.jpg?dl=1);
+  background-color: #cccccc;
+  background-size: cover;
+  background-position: center;
+
+  font-family: "Helvetica Neue";
+  color: white;
 }
 .jumbotron .container {
     position:relative;
-    top: 50px;
 }
 
 .jumbotron .container h1{
@@ -34,27 +38,21 @@ body {
   font-family: helvetica neue;
   font-weight:regular;
   font-size: 48px;
-   margin-left:80px;
-  margin-right:80px;
+  margin-left:120px;
+  margin-right:120px;
+  margin-top: 100px;
+  position: fixed;
 }
 
 .jumbotron p {
-    color:white;
+  color:white;
   font-family:helvetica neue;
-    font-size: 18px;
-  margin-left:50px;
-  margin-right:40px;
-    }
-.jumbotron h2 {
-    color:white;
-  font-family:helvetica neue;
-    font-size: 18px;
-  margin-left:70px;
-  margin-right:40px;
-    }
+  font-size: 18px;
+  margin-left:120px;
+  margin-right:120px;
+  margin-top: 100px;
 
-element.style {
-transform: translateX(100px) translateY(100px);
+
 }
 
 .collection-type-index.title--description-position-over-image .title-desc-wrapper.has-main-image .title-desc-inner {
@@ -63,18 +61,24 @@ max-width: 1000%;
 }
 
 .learn-more {
-  background-color: #f7f7f7;
+  color: #f7f7f7;
+  margin-top: 800px;
+  margin-bottom: 0px
+  font-size: 16px;
+
 }
 
 .learn-more h3 {
   
-  font-family: helvetica neue;
-  font-size: 18px;
+  font-family: "Helvetica Neue";
+  font-size: 21px;
   font-weight: bold;
 }
 
 .learn-more a {
   color: #00b0ff;
+  margin-bottom: 0px
+  font-size: 16px;
 }
 
 .neighborhood-guides{
@@ -82,12 +86,8 @@ max-width: 1000%;
     border-bottom:1px solid #dbdbdb;
     }
     
-.jumbotron .container h2{
-    color:white;
-  font-family:helvetica neue;
-    font-size:24px;}
     
    .jumbotron .container p2{
      color:white;
     font-size:18px;
-    margin-bottom:13px;}
+    margin-bottom:0px;}
