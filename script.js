@@ -10,6 +10,7 @@ $( "Comunidad Los Pinos" ).click(function( event ) {
   <meta charset="utf-8">
   <title>hide demo</title>
   <script src="https://code.jquery.com/jquery-1.10.2.js">
+  <scrpit src="script.js"></script>
 
   $( "img" ).hide();
   $( "About Los Pinos" ).click(function( event ) {
