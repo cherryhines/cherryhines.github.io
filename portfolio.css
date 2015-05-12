@@ -2,10 +2,10 @@
   color: white;
   font-family:"Impact";
   font-style:light;
-  padding-top:350px;
+  padding-top:250px;
   margin-left:200px;
-  /* float:left; */
-  position:fixed;
+  left: 315px;
+  position:absolute;
 }
 p {font-size: 18px;
   color: white;
@@ -14,6 +14,44 @@ p {font-size: 18px;
   margin-left:200px;
   position:absolute;
   text-align: left;
+  left: 240px;
+  font-weight: normal;
+  animation: fadein 7s;
+    -moz-animation: fadein 7s; /* Firefox */
+    -webkit-animation: fadein 7s; /* Safari and Chrome */
+    -o-animation: fadein 7s; /* Opera */
+}
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
 }
 .pull-right {display:inline;
 margin-:100px;}
@@ -45,4 +83,10 @@ float:left;}
 #footer{
     background-color:white;
     text-align:center;
-    padding :10px; 
+    padding :25px; 
+    position: fixed;
+    margin-top:600px;
+    width: 1300px;
+    font-family: "Verdana"
+
+  }
